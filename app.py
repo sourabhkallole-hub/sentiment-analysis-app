@@ -9,7 +9,7 @@ import spacy
 # Ensure NLTK data is downloaded for deployment
 try:
     nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
+except LookupError:
     nltk.download('stopwords')
 
 # Load the spaCy model once
