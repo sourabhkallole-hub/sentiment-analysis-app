@@ -9,4 +9,4 @@ This project predicts sentiment using NLP and Machine Learning.
 - Machine Learning model
 
 ## Run
-streamlit run app.py
+[streamlit run app.py](https://sentiment-analysis-app-gxjhcndeksybjbcmww7wnq.streamlit.app/#sentiment-analysis-app)
