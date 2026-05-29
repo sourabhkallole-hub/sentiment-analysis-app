@@ -49,8 +49,9 @@ def clean_text(text):
     ]
     return " ".join(tokens)
 
-st.title("Sentiment Analysis App")
-st.write("Enter a review to get its sentiment (Positive, Negative, or Neutral).")
+st.title("AI/ML Based Sentiment Analysis System")
+st.write("Analyze text sentiment using NLP and Machine Learning.")
+st.write("Developed by Sourabh Kallole")
 
 # Text input from user
 user_input = st.text_area("Enter your review here:", "")
